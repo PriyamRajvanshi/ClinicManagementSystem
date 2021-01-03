@@ -1,0 +1,180 @@
+﻿<error errorId="2aa1e87f-f1ab-43bb-99b6-cc288040389a" application="/LM/W3SVC/2/ROOT" host="APT04-DK8X2X2" type="System.Reflection.AmbiguousMatchException" message="The current request for action 'PopulateTimeSlot' on controller type 'PatientController' is ambiguous between the following action methods:&#xD;&#xA;System.Web.Mvc.ActionResult PopulateTimeSlot(System.String, Int32) on type ClinicManagementSystem.Controllers.PatientController&#xD;&#xA;System.Web.Mvc.ActionResult PopulateTimeSlot(ClinicManagementSystem.Models.TimeSlotViewModel) on type ClinicManagementSystem.Controllers.PatientController" source="System.Web.Mvc" detail="System.Reflection.AmbiguousMatchException: The current request for action 'PopulateTimeSlot' on controller type 'PatientController' is ambiguous between the following action methods:&#xD;&#xA;System.Web.Mvc.ActionResult PopulateTimeSlot(System.String, Int32) on type ClinicManagementSystem.Controllers.PatientController&#xD;&#xA;System.Web.Mvc.ActionResult PopulateTimeSlot(ClinicManagementSystem.Models.TimeSlotViewModel) on type ClinicManagementSystem.Controllers.PatientController&#xD;&#xA;   at System.Web.Mvc.ActionMethodSelectorBase.FindActionMethod(ControllerContext controllerContext, String actionName)&#xD;&#xA;   at System.Web.Mvc.Async.ReflectedAsyncControllerDescriptor.FindAction(ControllerContext controllerContext, String actionName)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.FindAction(ControllerContext controllerContext, ControllerDescriptor controllerDescriptor, String actionName)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeAction(ControllerContext controllerContext, String actionName, AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.Mvc.Controller.&lt;&gt;c.&lt;BeginExecuteCore&gt;b__152_0(AsyncCallback asyncCallback, Object asyncState, ExecuteCoreState innerState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)&#xD;&#xA;   at System.Web.Mvc.Controller.BeginExecuteCore(AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.Mvc.Controller.&lt;&gt;c.&lt;BeginExecute&gt;b__151_1(AsyncCallback asyncCallback, Object callbackState, Controller controller)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)&#xD;&#xA;   at System.Web.Mvc.Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c.&lt;BeginProcessRequest&gt;b__20_0(AsyncCallback asyncCallback, Object asyncState, ProcessRequestState innerState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" time="2019-11-21T09:15:26.5481369Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:no-cache&#xD;&#xA;HTTP_CONNECTION:Keep-Alive&#xD;&#xA;HTTP_CONTENT_LENGTH:39&#xD;&#xA;HTTP_CONTENT_TYPE:application/json; charset=utf-8&#xD;&#xA;HTTP_ACCEPT:*/*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.5&#xD;&#xA;HTTP_COOKIE:__RequestVerificationToken=9djT59yyN8h3CXS-bJ4ZRlbzjWkjoBRBUwBpVFrNUjGLq-bAzys-G7KTHv-MiXnzo-vsVuRZhQAcb4raJMKQ8Pf12CKlKIyKpOleZ4WCeFs1; ASP.NET_SessionId=hs33pc1mjawzynkxlkhbwoa1&#xD;&#xA;HTTP_HOST:localhost:54698&#xD;&#xA;HTTP_REFERER:http://localhost:54698/Patient/Doctor/Book-Appointment/2013?date=11%2F21%2F2019%2000%3A00%3A00&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#xD;&#xA;HTTP_ORIGIN:http://localhost:54698&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: no-cache&#xD;&#xA;Connection: Keep-Alive&#xD;&#xA;Content-Length: 39&#xD;&#xA;Content-Type: application/json; charset=utf-8&#xD;&#xA;Accept: */*&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: en-US,en;q=0.5&#xD;&#xA;Cookie: __RequestVerificationToken=9djT59yyN8h3CXS-bJ4ZRlbzjWkjoBRBUwBpVFrNUjGLq-bAzys-G7KTHv-MiXnzo-vsVuRZhQAcb4raJMKQ8Pf12CKlKIyKpOleZ4WCeFs1; ASP.NET_SessionId=hs33pc1mjawzynkxlkhbwoa1&#xD;&#xA;Host: localhost:54698&#xD;&#xA;Referer: http://localhost:54698/Patient/Doctor/Book-Appointment/2013?date=11%2F21%2F2019%2000%3A00%3A00&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362&#xD;&#xA;Origin: http://localhost:54698&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="/LM/W3SVC/2/ROOT" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="C:\Users\prajvanshi\Documents\Visual Studio 2015\Projects\NewFolder\ClinicManagementSystem\ClinicManagementSystem\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="39" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="application/json; charset=utf-8" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="CGI/1.1" />
+    </item>
+    <item name="HTTPS">
+      <value string="off" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="2" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="/LM/W3SVC/2" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Patient/PopulateTimeSlot" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="C:\Users\prajvanshi\Documents\Visual Studio 2015\Projects\NewFolder\ClinicManagementSystem\ClinicManagementSystem\Patient\PopulateTimeSlot" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="59699" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="POST" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Patient/PopulateTimeSlot" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="54698" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="Microsoft-IIS/10.0" />
+    </item>
+    <item name="URL">
+      <value string="/Patient/PopulateTimeSlot" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="Keep-Alive" />
+    </item>
+    <item name="HTTP_CONTENT_LENGTH">
+      <value string="39" />
+    </item>
+    <item name="HTTP_CONTENT_TYPE">
+      <value string="application/json; charset=utf-8" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="*/*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-US,en;q=0.5" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="__RequestVerificationToken=9djT59yyN8h3CXS-bJ4ZRlbzjWkjoBRBUwBpVFrNUjGLq-bAzys-G7KTHv-MiXnzo-vsVuRZhQAcb4raJMKQ8Pf12CKlKIyKpOleZ4WCeFs1; ASP.NET_SessionId=hs33pc1mjawzynkxlkhbwoa1" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:54698" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:54698/Patient/Doctor/Book-Appointment/2013?date=11%2F21%2F2019%2000%3A00%3A00" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362" />
+    </item>
+    <item name="HTTP_ORIGIN">
+      <value string="http://localhost:54698" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="__RequestVerificationToken">
+      <value string="9djT59yyN8h3CXS-bJ4ZRlbzjWkjoBRBUwBpVFrNUjGLq-bAzys-G7KTHv-MiXnzo-vsVuRZhQAcb4raJMKQ8Pf12CKlKIyKpOleZ4WCeFs1" />
+    </item>
+    <item name="ASP.NET_SessionId">
+      <value string="hs33pc1mjawzynkxlkhbwoa1" />
+    </item>
+  </cookies>
+</error>
